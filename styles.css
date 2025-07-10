@@ -9,7 +9,7 @@
 .hero-img{
 	width: 100px;
 	height: 100px;
-	object-fit: cover;
+	object-fit: fill;
 }
 .explore-btn{
 	padding: 20px;
