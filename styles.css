@@ -1,19 +1,51 @@
 /*  your css code here. If applicable */
-.hero{
-	display: flex;
-	width: 300px;
-	height: 300px;
-	justify-content: right;
-	align-items: right;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.hero-img{
-	width: 100px;
-	height: 100px;
-	object-fit: fill;
+
+body {
+  font-family: Arial, sans-serif;
 }
-.explore-btn{
-	padding: 20px;
-	background-color: red;
-	color: white;
-	border-radius: 20px;
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-image img {
+  width: 65vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-content {
+  padding: 2rem;
+  width: 35vw;
+  background-color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.explore-btn {
+  padding: 0.7rem 1.5rem;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
